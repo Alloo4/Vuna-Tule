@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #d2e1d3;
     line-height: 1.6;
     box-sizing: border-box;
 }
@@ -222,3 +222,23 @@ footer {
 footer p {
     margin: 0;
 }
+.team-row{
+    display: flex;
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team-member {
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
