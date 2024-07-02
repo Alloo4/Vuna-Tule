@@ -1,5 +1,6 @@
 /* styles.css */
 
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -49,11 +50,7 @@ nav a {
     font-size: 0.8rem;
 }
 
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-}
+
 
 .hero {
     text-align: center;
@@ -259,3 +256,4 @@ header {
 nav {
     display: flex;
     align-items: center;
+}
