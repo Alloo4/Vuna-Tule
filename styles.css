@@ -15,6 +15,10 @@ header {
     align-items: center;
 }
 
+#login-btn {
+    margin-left: 625px;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -31,6 +35,10 @@ nav a {
     position: relative;
     display: flex;
     align-items: center;
+}
+
+.about {
+    text-align: center;
 }
 
 .cart img {
@@ -55,28 +63,42 @@ nav a {
 .hero {
     text-align: center;
     background-image: url('images/hero-image.jpg');
+    background-position: center;
     background-size: cover;
     color: white;
-    padding: 4rem 1rem;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 9rem 1rem;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+.textbox {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 0.875rem;
+    color: #fff;
 }
 
 .cta-button {
     background-color: #FF9800;
     color: white;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     text-decoration: none;
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -105,14 +127,20 @@ p, ul {
 }
 
 .benefits {
-    display: flex;
+    margin: auto;
     justify-content: space-around;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
 }
 
 .benefit-item {
     text-align: center;
     width: 30%;
-    background-color: #fff;
+    background-color: #7df783;
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 10px;
@@ -123,6 +151,10 @@ p, ul {
 .benefit-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.how-we-work {
+    text-align: center;
 }
 
 .product-list {
@@ -233,6 +265,45 @@ footer p {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.collaborators {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.collaborators-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #a2eea6;
+    padding: 25px;
+    display: flex;
+}
+
+.collaborators-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.collaborators-col p {
+    padding: 0;
+}
+
+.collaborators-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.collaborators-col h3 a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 body {

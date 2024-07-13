@@ -35,3 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
     handleFormSubmission('registration-form', 'Registration form submitted successfully!');
     handleFormSubmission('contact-form', 'Contact form submitted successfully!');
 });
+
+var navLinks = document.getElementById("navLinks");
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
